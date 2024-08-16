@@ -1,11 +1,11 @@
 variable "message" {
   description = "The message to print"
   type        = string
-  default     = "Hello, World!"
+  default     = "Hello, World! (module default)"
 }
 
 variable "second_message" {
   description = "The message to print"
   type        = string
-  default     = "A second message!"
+  default     = "A second message! (module default)"
 }

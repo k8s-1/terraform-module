@@ -5,6 +5,7 @@
     - code goes into main.tf / variables.tf
     - if multiple modules used, group tf files into logical groups instead (e.g. flux.tf, vpc.tf, network.tf),
     have one file for one module
+    - do not overuse modules, use if it makes management easier
 2. Put repeatable code into modules
 3. Do not pass variables unless needed, always ask if you need to pass a variable or it can be default everywhere
 

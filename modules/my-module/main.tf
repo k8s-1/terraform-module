@@ -4,8 +4,7 @@ resource "null_resource" "custom_print" {
   }
 }
 
-resource      "null_resource" "custom_print" {
-
+resource "null_resource" "custom_print" {
   provisioner "local-exec" {
     command = "echo '${var.second_message}'"
   }
